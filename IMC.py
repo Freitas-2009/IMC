@@ -6,3 +6,10 @@ ALtura = float(input ("Digite sua altura"))
 IMC = Peso / (ALtura * ALtura)
 
 print (f" {Nome} seu IMC é: {IMC}")
+
+if IMC < 18.5:
+     print("ABAIXO DO PESO")
+elif IMC < 24.9:
+    print("NORMAL")
+else:
+    print("OBESIDADE")
